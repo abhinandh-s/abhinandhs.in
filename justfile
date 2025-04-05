@@ -10,4 +10,4 @@ deploy:
   git push
 
 deno-update-fresh:
-  deno run -A -r https://fresh.deno.dev/update
+  deno run -Ar https://fresh.deno.dev/update

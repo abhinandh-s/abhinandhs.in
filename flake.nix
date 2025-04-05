@@ -1,8 +1,8 @@
 {
-  description = "Flake template";
+  description = "Flake template for deno fresh framework";
 
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.05";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-24.11";
     unstable-nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
   };
 
