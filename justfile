@@ -2,6 +2,12 @@ lint:
   deno lint
   deno fmt
 
+serve:
+  deno task start
+
+build:
+  deno task build
+
 deploy:
   deno lint
   deno fmt
