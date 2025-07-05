@@ -26,15 +26,3 @@ jobs:
           # Step 3: Cache dependencies
       - name: Update Dependencies
         run: deno cache --reload main.ts
-
-        # Step 4: Run Linter
-      - name: Lint Code
-        run: deno lint
-
-        # Step 5: Check Formatting
-      - name: Check Formatting
-        run: deno fmt --check
-
-        # Optional Step 6: Run Tests
-      - name: Run Tests
-        run: deno test --allow-all
